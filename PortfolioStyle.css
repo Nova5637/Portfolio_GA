@@ -233,12 +233,6 @@ margin-right: -20vb;
     flex-direction: row-reverse;
 }
 
-/* Responsiivisuus */
-@media (max-width: 768px) {
-    .project {
-        flex-direction: column;
-    }
-}
 
 
 /* nappulat */
@@ -346,3 +340,62 @@ margin-right: -20vb;
     text-align: center;
 }
 
+
+
+/* Responsiivisuus */
+@media (max-width: 800px) {
+    .project {
+        flex-direction: column;
+    }
+
+    ul{
+
+        display: none;
+
+    }
+
+    .gallery{
+
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .gallery img, .gallery video {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .portfolio h1 {
+        margin: auto;
+        margin-bottom: -40px;
+}
+
+    .Additional-info p{
+        white-space:wrap;
+        margin: auto;
+        margin-left: 9vb;
+        
+    }
+
+    .Additional-info img{
+        width: 87%;
+        height: 100%;
+        margin: auto;
+        margin-left: 9vb;
+    
+    }  
+
+.Headline h1{
+    margin-top: -45px;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.Headline img{
+    width: 100%;
+    height: auto;
+    margin-bottom: -80px; 
+    padding-bottom: 84px;      
+
+} }   
