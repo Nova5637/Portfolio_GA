@@ -342,17 +342,72 @@ margin-right: -20vb;
 
 
 
-/* Responsiivisuus */
-@media (max-width: 800px) {
+/* desktop SMALL */
+
+@media (max-width: 1300px) {
     .project {
         flex-direction: column;
     }
-
     ul{
 
         display: none;
 
     }
+    .gallery{
+
+        display: block;
+        margin: 0 auto;
+    
+
+    }
+
+  .portfolio h1 {
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: -40px;
+
+}
+.Headline img {
+    width: 50%;
+    height: auto;
+    margin-bottom: -80px;
+    padding-bottom: 84px;
+  }
+
+    .Additional-info p{
+        white-space:wrap;
+        margin: auto;
+        margin-left: 12vb;
+        
+    }
+
+    .Additional-info img{
+        width: 87%;
+        height: 100%;
+        margin: auto;
+        margin-left: 12vb;
+    
+    }  
+
+
+
+}
+
+
+
+
+/* mobile ja tablet */
+@media (max-width: 1000px) {
+    .project {
+        flex-direction: column;
+    }
+
+    ul,.info-btn{
+
+        display: none;
+
+    }
+
 
     .gallery{
 
@@ -393,7 +448,7 @@ margin-right: -20vb;
 }
 
 .Headline img{
-    width: 100%;
+    width: 85%;
     height: auto;
     margin-bottom: -80px; 
     padding-bottom: 84px;      
