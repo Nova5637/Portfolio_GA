@@ -1,3 +1,5 @@
+
+
 .head {
   margin: 0;
   padding: 0;
@@ -73,11 +75,20 @@ ul a:hover::after {
   opacity: 0.5;
 }
 
-ul a ion-icon {
-  color: #777;
-  font-size: 1.75em;
+ul a, span, ion-icon {
+  color: #0044ff;
+  font-size: 1.25em;
+  font-weight: 500;
   transition: 0.5s;
   transition-delay: 0.25s;
+}
+ul a, span, ion-icon:hover::before {
+  color: #0044ff00;
+
+}
+ul a, span, ion-icon:hover {
+  color: #3d4d753b;
+
 }
 
 ul a:hover ion-icon {
@@ -180,6 +191,28 @@ body {
   
 
 }
+
+.gallery2 img{
+
+    display: grid;
+    grid-template-columns: 50vb;
+    width: 100vb;
+    height: auto;
+    margin-left: -10vb;
+    gap: 10px;
+    border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  box-shadow: 5px 5px 5px rgba(17, 15, 54, 0.308);
+  margin-bottom: 15px;
+  
+}
+
+
+
+
+
+
 .portfolio h1{
 
 margin-left: -90px;
@@ -197,6 +230,10 @@ margin-bottom: -60px;
 }
 
 .gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery2 img:hover {
     transform: scale(1.05);
 }
 
@@ -454,3 +491,41 @@ margin-right: -20vb;
     padding-bottom: 84px;      
 
 } }   
+
+
+/* icons */
+
+#About-Icons img{
+    padding: 8px;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.About-panel{
+
+    padding-top: 15vb;
+    margin: 80px auto;
+    padding: 0;
+    align-items: start;
+    padding-bottom: 15vb;
+
+
+    display: grid;
+    grid-template-columns: 50vb 50vb;
+
+}
+
+
+.Meimg img{
+
+    width: 40vb;
+    height: 40vb;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    box-shadow: 5px 5px 5px rgba(17, 15, 54, 0.308);
+
+
+}
